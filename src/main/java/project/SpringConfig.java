@@ -9,9 +9,4 @@ public class SpringConfig {
     public SpringExampleBean springExampleBean(){
         return new SpringExampleBean();
     }
-
-    @Bean
-    public MyPostProcessor myPostProcessor(){
-        return new MyPostProcessor();
-    }
 }
